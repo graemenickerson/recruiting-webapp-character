@@ -57,3 +57,12 @@ export const SKILL_LIST = [
     { name: 'Survival', attributeModifier: 'Wisdom' },
 
 ]
+
+export const NEW_CHARACTER = {
+        'Strength': 10,
+        'Dexterity': 10,
+        'Constitution': 10,
+        'Intelligence': 10,
+        'Wisdom': 10,
+        'Charisma': 10,
+};
