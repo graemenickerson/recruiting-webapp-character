@@ -1,4 +1,3 @@
-
 import { ATTRIBUTE_LIST } from '../consts.ts';
 import ListItem from './ListItem.jsx';
 

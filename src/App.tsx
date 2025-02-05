@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { NEW_CHARACTER } from './consts';
 import CharacterAttributes from './characterAttributes/CharacterAttributes';
+import ClassList from './classList/ClassList';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       </header>
       <section className="App-section">
         <CharacterAttributes character={characterOne} updateCharacter={setCharacterOne} />
+        <ClassList character={characterOne} />
       </section>
     </div>
   );
